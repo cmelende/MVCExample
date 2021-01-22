@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MVCExample.Models;
 
 namespace MVCExample.Controllers
 {
@@ -26,14 +27,5 @@ namespace MVCExample.Controllers
 
             return View();
         }
-    }
-
-    public class HomePageModel
-    {
-
-        public string Header => "MVC Example";
-
-        public string MainParagraph =>
-            "Example repository for showing off different methods of the html helper and when and how to use them";
     }
 }

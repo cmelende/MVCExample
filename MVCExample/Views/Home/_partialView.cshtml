@@ -1,18 +1,6 @@
-﻿@model MVCExample.Controllers.HomePageModel
+﻿@model MVCExample.Models.HomePageModel
 
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>I am a partial view</title>
-</head>
-<body>
-<div>
-      
-</div>
-</body>
-</html>
+<h2>@Model.PartialViewHeader</h2>
+<p>
+    @Model.PartialViewParagraph   
+</p>
